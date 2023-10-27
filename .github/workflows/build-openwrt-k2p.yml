@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt.org 23.05
+name: Build OpenWrt.org 23.05 k2p
 
 on:
   repository_dispatch:
