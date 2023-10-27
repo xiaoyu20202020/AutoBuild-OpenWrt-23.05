@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt.org 23.05 GL-MT1300-clash
+name: Build OpenWrt.org 23.05
 
 on:
   repository_dispatch:
@@ -23,9 +23,9 @@ env:
   REPO_URL: https://git.openwrt.org/openwrt/openwrt.git
   REPO_BRANCH: openwrt-23.05
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: glmt1300-clash.config
-  DIY_P1_SH: glmt1300-diy-part1.sh
-  DIY_P2_SH: diy-part2.sh
+  CONFIG_FILE: .config
+  DIY_P1_SH: k2p-part1.sh
+  DIY_P2_SH: k2p-part2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
